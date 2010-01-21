@@ -24,8 +24,9 @@ Discussion
 I learned a couple of things going through this exercise so far:
 
 * using "serialize :value" doesn't actually serialize floats, ints, etc. Had to
-* wrap in an array there doesn't seem to be a good way to have a sort of
-* "unique => destroy"
-* action where, a create with an existing name will just replace the old
-* object. Had to write a manual before_save which felt clunky.
+  wrap in an array 
+
+* there doesn't seem to be a good way to have a sort of
+  "unique => destroy" action where, a create with an existing name will just 
+  replace the old object. Had to write a manual before_save which felt clunky.
 
