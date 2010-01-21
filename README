@@ -1,0 +1,19 @@
+
+I enjoy when a potential client asks interesting coding questions as a
+qualification. It is a quick and easy way to see if the client enjoys your
+style and gives you something to talk about afterwards.
+
+The question is:
+
+Write a model (ActiveRecord-based) for storing global configuration settings.
+It will be used for storing single values, for example an email address to send
+error emails to, or a flag enable/disable a particular feature. The interface
+must be simple and convenient, - it should be possible to read and write
+specific configuration items. It must be possible to store values of these 4
+types: string, integer, float and boolean. The model should come with a unit
+test and a migration.
+
+Bonus: add caching within the model so that values are cached in regular Rails
+cache to minimize db load.
+
+

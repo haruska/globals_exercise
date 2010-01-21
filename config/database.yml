@@ -1,0 +1,22 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: globals_exercise_development
+  username: root
+  password: 
+  socket: /var/run/mysqld/mysqld.sock
+test:
+  adapter: mysql
+  encoding: utf8
+  database: globals_exercise_test
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock
+production:
+  adapter: mysql
+  encoding: utf8
+  database: globals_exercise_production
+  username: root
+  password: 
+  socket: /var/run/mysqld/mysqld.sock
+
